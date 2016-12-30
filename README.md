@@ -1,4 +1,4 @@
-# hello-world
-Just learning
+# FCC
+FCC Challenges
 
-Ok, lets just test how does this works. Looking forward to learning it asap
+Within this repository, I will store FreeCodeCamp's Challenges
