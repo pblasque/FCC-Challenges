@@ -1,3 +1,4 @@
+<html>
 <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'/>
 <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
@@ -27,8 +28,15 @@
   background: #fff;
   color: #fff;
 }
+.thumbnail {
+  background: contain;
+   border: 0px;
+   max-height: 506px;
+}
 </style>
 
+<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'/>
 <body id="bkg-img">
     <div class="container">
     <div id="black-bkg">
@@ -37,9 +45,10 @@
           <div>
             <h2 class="text-center subhead"><em>The renowned gothic writer:</em></h2>
             <h1 class="text-center headert">Edgar Allan Poe</h1>           </div>
-          <div class="hline"></div>
-          <br>
+          
           <div class="row">
+            <div class="hline"></div>
+          <br>
             <div id="poe-retrato" class="thumbnail  col-sm-6">
               <img src="http://weshapelife.org/wp-content/uploads/2016/07/Top-3-Convincing-Moments-That-Edgar-Allan-Poe-Was-A-Time-Traveler.jpeg" class="img-responsive">
               <div class="caption text-center" style="color: black; text-shadow: none;">His widely famous poem - <em>The Raven</em></div>
@@ -50,9 +59,9 @@
            <p id="about">Edgar Allan Poe was an American writer, editor, and literary critic. Poe is best known for his poetry and short stories, particularly his tales of mystery and the macabre. He is widely regarded as a central figure of Romanticism in the United States and American literature as a whole, and he was one of the country's earliest practitioners of the short story. Poe is generally considered the inventor of the detective fiction genre and is further credited with contributing to the emerging genre of science fiction. He was the first well-known American writer to try to earn a living through writing alone, resulting in a financially difficult life and career.</p>
           </div>
           </div>
-          <div class="hline"></div>
+            <div class="row">
+            <div class="hline"></div>
           <br>
-          <div class="row">
             <div class="col-sm-8">
             <h3 class="text-center">Poe's timeline:</h3>
             <br>
@@ -76,18 +85,23 @@
               <br>
               </div>
               <div class="col-sm-4 thumbnail">
-                <img src="http://1.bp.blogspot.com/-m1jbUy1_Gcw/UYvDKCrxKzI/AAAAAAAAADk/kcP3MlUSELg/s1600/cvr9780689848377_9780689848377_hr.jpg" class="img-responsive" style="width: 100%;height: 100%;">
+                <img src="http://4.bp.blogspot.com/-ZLqXXme8-KQ/TxiJ0VnfFDI/AAAAAAAACEI/kq_5bHkDqU8/s1600/EGcoverTalesbyPoe.jpg" class="img-responsive" style="width: 100%; max-height: 430px;">
+                <div class="caption text-center" style="color: black; text-shadow: none;">Poe's first published novel</div>
               </div><br>                        
           </div>
-            <div class="hline"></div>
+            <div class="row">
+              <div class="hline"></div>
           <br>
             <blockquote class="blockquote">
                 <p>Deep into that darkness peering, long I stood there, wondering, fearing, doubting, dreaming dreams no mortal ever dared to dream before.</p>
-                <footer class="blockquote-footer">Edgar A. Poe in <em><strong>The Raven</strong></em></footer>
+                <footer class="blockquote-footer" style="color: #c9cacc;">Edgar A. Poe in <em><strong>The Raven</strong></em></footer>
               </blockquote>
+              </div>
+            <div class="row">
             <div class="hline"></div>
           <br>
             <h4 class="text-center">If you have an interest into dark poems and gothic stories, read more about the author on a <a href="http://www.poestories.com" target="_blank" style="color: yellow;">fansite</a>.<h4>
+              </div>
         </div>
               <br><br>
          <footer class="text-center">Written and coded by <a href="https://www.freecodecamp.com/pblasque" target="_blank" style="color: yellow;">Pedro Blasque</footer>
@@ -95,3 +109,4 @@
     </div>
   </div>
 </body>
+</html>      
